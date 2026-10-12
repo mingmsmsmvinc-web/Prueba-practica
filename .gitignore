@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+.venv/bin/
+.venv/lib/
+
+# Distribución / empaquetado
+*.egg-info/
+*.egg
+build/
+dist/
+*.whl
+
+# Logs y bases de datos
+*.log
+*.sqlite3
+db.sqlite3
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+*.key
+*.pem
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks (opcional, si no quieres subir los outputs)
+.ipynb_checkpoints/
+
+# Coverage (tests)
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
